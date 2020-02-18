@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<Fandango>
+    <Intro>
+        <Name>FANDANGO</Name>
+        <Locate>
+            <Loc>Rochester, NY Showtimes</Loc>
+            <Date>Date of Show: 9/26/2018</Date>
+        </Locate>
+    </Intro>
+    <Cinema id="1">
+        <Theater>
+            <Name>Movies 10</Name>
+            <Location>2613 West Henrietta Road, Rochester, NY 14623</Location>
+            <Extras>
+            <Normal>Text to</Normal> 
+            <BoldText>FNDGO</BoldText>
+            <Normal1> (36346) from your wireless device to get this theater's showtimes.</Normal1>
+            </Extras>
+        </Theater>
+        <Movies>
+            <Movie type="1">
+                <MovieName>The Happytime Murders (R) : </MovieName>
+                <Runtime>1 hr 31 min</Runtime>
+                <Times>12:25p | 5:45p | 7:50p</Times>
+            </Movie>
+            <Movie type="2">
+                <MovieName>The Spy Who Dumped Me (R) : </MovieName>
+                <Runtime>1 hr 56 min</Runtime>
+                <Times> 2:30p </Times>
+            </Movie>
+            <Movie type="3">
+                <MovieName>Mile 22 (R) : </MovieName>
+                <Runtime>1 hr 35 min</Runtime>
+                <Times>12:05p | 3:35p | 7:25p</Times>
+            </Movie>
+            <Movie type="4">
+                <MovieName>Slender Man (PG-13) : </MovieName>
+                <Runtime>1 hr 33 min</Runtime>
+                <Times>7:40p</Times>
+            </Movie>
+            <Movie type="5">
+                <MovieName>The Equalizer 2 (R)  : </MovieName>
+                <Runtime>2 hr 1 min</Runtime>
+                <Times>2:15p | 4:55p | 7:30p</Times>
+            </Movie>
+        </Movies>
+    </Cinema>
+    <Cinema id="2">
+        <Theater>
+            <Name>Pittsford Cinemas</Name>
+            <Location>3349 Monroe Ave., Pittsford Plaza, Rochester, NY 14618</Location>
+            <Extras>
+            <Normal>Text to </Normal>
+            <BoldText>FNDGO</BoldText>
+            <Normal1> (36346) from your wireless device to get this theater's showtimes.</Normal1>
+            </Extras>
+        </Theater>
+        <Movies>
+        <Movie type="6">
+                <MovieName>A Simple Favor (R) : </MovieName>
+                <Runtime>1 hr 56 min</Runtime>
+                <Times>11:45a | 2:20p | 5:00p | 7:40p</Times>
+            </Movie>
+             <Movie type="7">
+                <MovieName>Lizzie (2018) (R) : </MovieName>
+                <Runtime>1 hr 46 min</Runtime>
+                <Times>11:50a | 2:30p | 5:10p | 7:50p</Times>
+            </Movie>
+             <Movie type="8">
+                <MovieName>White Boy Rick (R) : </MovieName>
+                <Runtime>1 hr 51 min</Runtime>
+                <Times>11:25a | 2:40p | 5:20p | 8:00p</Times>
+            </Movie>
+             <Movie type="9">
+                <MovieName>Operation Finale (PG-13) (R) : </MovieName>
+                <Runtime>2 hr 2 min</Runtime>
+                <Times>4:00p</Times>
+            </Movie>
+             <Movie type="10">
+                <MovieName>The Bookshop (PG) (R) : </MovieName>
+                <Runtime>1 hr 53 min</Runtime>
+                <Times>1:00p | 6:45p</Times>
+            </Movie>
+        </Movies>
+    </Cinema>
+</Fandango>

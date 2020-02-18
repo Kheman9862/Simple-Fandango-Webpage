@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Fandango">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Intro">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element type="xsd:string" name="Name"/>
+              <xsd:element name="Locate">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:string" name="Loc"/>
+                    <xsd:element type="xsd:string" name="Date"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Cinema" maxOccurs="unbounded" minOccurs="0">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Theater">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:string" name="Name"/>
+                    <xsd:element type="xsd:string" name="Location"/>
+                    <xsd:element name="Extras">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="Normal"/>
+                          <xsd:element type="xsd:string" name="BoldText"/>
+                          <xsd:element type="xsd:string" name="Normal1"/>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Movies">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Movie" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="MovieName"/>
+                          <xsd:element type="xsd:string" name="Runtime"/>
+                          <xsd:element type="xsd:string" name="Times"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="type" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

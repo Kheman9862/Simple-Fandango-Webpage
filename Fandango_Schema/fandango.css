@@ -1,0 +1,128 @@
+Fandango {
+  margin-left: 100px;
+  margin-right: 100px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+/* Fandango Cinema Theater {
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+Fandango Intro {
+  display: block;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+Fandango Intro Name {
+  display: block;
+  color: #668cff;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1em;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+
+Fandango Intro Date {
+  margin-left: 800px;
+}
+
+Fandango Intro Locate {
+  border: 3px solid gray;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+Fandango Cinema Movies {
+  border: 2px solid gray;
+}
+
+Fandango Cinema Movies {
+  display: block;
+}
+
+Fandango Cinema Theater Name,
+Location {
+  display: block;
+}
+
+Fandango Cinema Theater Name,
+Location,
+Extras {
+  padding-left: 5px;
+}
+
+Fandango Cinema Theater Name {
+  font-weight: bold;
+}
+
+Fandango Cinema Theater Extras BoldText {
+  font-weight: bold;
+}
+
+Fandango Cinema Movies Movie {
+  display: block;
+  border: 2px solid black;
+  padding: 20px 0px 20px 10px;
+}
+
+Fandango Cinema Movies Movie Runtime {
+  margin-left: 10px;
+}
+
+Fandango Cinema Movies Movie Times {
+  margin-left: 500px;
+  border-left: 4px solid black;
+  padding-top: 20px;
+  padding-bottom: 21px;
+  padding-left: 21px;
+}
+
+[type="1"] Times {
+  margin-left: 365px;
+}
+
+[type="2"] Times {
+  margin-left: 347px;
+}
+
+[type="4"] Times {
+  margin-left: 421.5px;
+}
+
+[type="5"] Times {
+  margin-left: 445px;
+}
+
+[type="6"] Times {
+  margin-left: 435px;
+}
+
+[type="7"] Times {
+  margin-left: 454px;
+}
+
+[type="8"] Times {
+  margin-left: 432px;
+}
+
+[type="9"] Times {
+  margin-left: 366px;
+}
+
+[type="10"] Times {
+  margin-left: 401px;
+}
+
+[id="2"] Name {
+  margin-top: 100px;
+}
+
+[id="2"] Movies {
+  margin-bottom: 150px;
+}
