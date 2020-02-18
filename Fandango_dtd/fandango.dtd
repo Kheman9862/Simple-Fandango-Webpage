@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT Fandango (Intro,Cinema+)>
+<!ELEMENT Intro (Name,Locate)>
+<!ELEMENT Locate (Loc,Date)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Loc (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Cinema (Theater,Movies)>
+<!ATTLIST Cinema id (1|2) #REQUIRED>
+<!ELEMENT Theater (Name,Location,Extras)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Extras (Normal,BoldText,Normal1)>
+<!ELEMENT Normal (#PCDATA)>
+<!ELEMENT BoldText (#PCDATA)>
+<!ELEMENT Normal1 (#PCDATA)>
+<!ELEMENT Movies (Movie+)>
+<!ELEMENT Movie (MovieName,Runtime,Times)>
+<!ATTLIST Movie type (1|2|3|4|5|6|7|8|9|10) #REQUIRED>
+<!ELEMENT MovieName (#PCDATA)>
+<!ELEMENT Runtime (#PCDATA)>
+<!ELEMENT Times (#PCDATA)>
